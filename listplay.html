@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表页</title>
+    <link rel="stylesheet" href="css/listplay.css">
+    <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <!-- 导航栏 -->
+        <div class="nav">
+            <h1><img src="img/xq/logo.png" alt=""></h1>
+            <ul class="ttt" id="nav_box">
+                <li><a href="index.html">首页</a> </li>
+                <li><a href="">直播</a></li>
+                <li><a href="">分类</a>
+                    <div class="ttt_fl" id="box_fl">
+                        <i class="xial_arrow"></i>
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>英雄联盟</dd>
+                            <dd>王者荣耀</dd>
+                            <dd>和平精英</dd>
+                            <dd>一起看</dd>
+                            <dd>星秀</dd>
+                            <dd>户外</dd>
+                            <dd>天天吃鸡</dd>
+                            <dd>主机游戏</dd>
+                            <dd>穿越火线</dd>
+                            <dd>二次元</dd>
+                            <dd>交友</dd>
+                            <dd>颜值</dd>
+                        </dl>
+                        <dl>
+                            <dt>玩家推荐</dt>
+                            <dd>英雄联盟手游</dd>
+                            <dd>LOL电竞经理</dd>
+                            <dd>魔兽世界</dd>
+                            <dd>生死狙击2</dd>
+                            <dd>暗黑破坏神</dd>
+                            <dd>QQ飞车手游</dd>
+                            <dd>暗区突围</dd>
+                            <dd>三国杀</dd>
+                            <dd>DOTA1</dd>
+                            <dd>我的世界</dd>
+                            <dd>梦三国</dd>
+                            <dd>虎牙地方</dd>
+                        </dl>
+                        <p><a href="">更多</a></p>
+
+                    </div>
+                    <i class="rowrr"></i>
+                </li>
+                <li><a href="">赛事</a>
+                    <div class="ttt_math"> 
+                        <i class="xial_arrow"></i>
+                        <dl>
+                            <dt>赛事热播</dt>
+                            <dd>LPL夏季赛 LGD&nbsp;1:0&nbsp;WE</dd>
+                            <dd>LCK夏季赛 T1&nbsp;2:1&nbsp;KT</dd>
+                            <dd>KPL夏季赛 苏州KSG 2:0成都AG</dd>
+                            <dd>2022PCL夏季赛-天天吃鸡 第一周周中赛 第...</dd>
+                            <dd>2022桥式中式台球大师赛 石汉青&nbsp;0:0 于....</dd>
+                            <dd>NBPL职业联赛-永劫无间 NBPL 0:0 NBPL</dd>
+                        </dl>
+                        <dl>
+                            <dt>赛事预告</dt>
+                            <dd>07.08 14:00 QQ飞车端游谁是车神 <a href="">预定</a></dd>
+                            <dd>今天 15:00 2022年QQ飞车手游.... <a href="">预定</a></dd>
+                            <dd>今天 15:00 2022KPL夏季赛 <a href="">预定</a></dd>
+                            <dd>今天 16:00 2022LCK夏季赛 <a href="">预定</a></dd>
+                            <dd>今天 17:00 王者荣耀雷霆破军... <a href="">预定</a></dd>
+                        </dl>
+                    </div>
+                    <i class="rowrr"></i>
+                </li>
+                <li><a href="">视频</a>
+                    <div class="ttt_vodio">
+                        <i class="xial_arrow"></i>
+                        <dl>
+                            <dt>精选专题</dt>
+                            <dd>2022LPL春季赛</dd>
+                            <dd>2022KPL春季赛</dd>
+                            <dd>2022PCL春季赛</dd>
+                        </dl>
+                    </div>
+                    <i class="rowrr"></i>
+                </li>
+                <li><a href="">网游</a>
+                    <div class="nav_ttt_game">
+                        <i class="xial_arrow"></i>
+                        <dl>
+                            <dt>热门游戏</dt>
+                            <dd><img src="img/game1.gif" alt=""> 血饮龙纹 <a href="">开始游戏</a></dd>
+                            <dd><img src="img/game2.gif" alt=""> 百战沙城 <a href="">开始游戏</a></dd>
+                        </dl>
+                    </div>
+                    <i class="rowrr"></i>
+                </li>
+                <li><a href="">云游戏</a>
+                    <div class="nav_ttt_ganmetop2">
+                        <i class="xial_arrow"></i>
+                        <dl class="nav_ganmetop_ul1">
+                            <dt>热门推荐</dt>
+                            <dd><img src="img/nav_gametop_ph1.jpg" alt="">
+                                <h4>地下城于勇士<br /> <span>无需下载，点击即玩</span></h4>
+                            </dd>
+                            <dd><img src="img/nav_gametop_ph2.png" alt="">
+                                <h4>远程游戏 <br> <span>随时随地，点击畅玩</span></h4>
+                            </dd>
+                        </dl>
+                        <dl class="nav_ganmetop_ul2">
+                            <dt>高分好评</dt>
+                            <dd><img src="img/nav_gametop_ph3.jpg" alt="">
+                                <p>云顶之弈</p>
+                            </dd>
+                            <dd><img src="img/nav_gametop_ph4.jpg" alt="">
+                                <p>FIFAOL4</p>
+                            </dd>
+                            <dd><img src="img/nav_gametop_ph5.jpg" alt="">
+                                <p>NBAOL2</p>
+                            </dd>
+                        </dl>
+                        <section class="nav_gametop2_txt">
+                            <span>发现更多</span>
+                            <a href="">YOWA云游戏</a>
+                        </section>
+                    </div>
+                    <i class="rowrr" style="right: 0;"></i>
+                </li>
+            </ul>
+            <div class="nav_input_bpx">
+                <form action="">
+                    <input type="text" placeholder="无规则打野耀阳" class="inputtt">
+                    <button class="inpubbb"></button>
+                </form>
+            </div>
+
+            <ul class="yyyy" id="yyyy">
+                <li>
+                    <a href=""><i class="nav_logo_right"></i>
+                        <span class="nav_a_color">开播</span>
+                    </a>
+                </li>
+                <li><a href="">
+                        <i class="nav_logo_right1"></i>
+                        <span class="nav_a_color">下载</span>
+                    </a>
+                    <div class="xzai">
+                        <div class="xzai_box1">
+                            <div class="xzai_box2">
+                                <div class="boss_box">
+                                    <a href="" class="boss_box_bigbox">
+                                        <span class="boss_box_l1">虎牙APP</span>
+                                        <span class="boss_box_l2">独家赛事随时享</span>
+                                        <span class="boss_box_l3">
+                                            <i class="boss_box_l4"></i>
+                                        </span>
+                                        <span class="boss_box_l5">扫码下载</span>
+                                    </a>
+                                    <a href="" class="boss_box_bigbox2">
+                                        <span class="boss_box_l1">虎牙pc电视端</span>
+                                        <span class="boss_box_l2">秒开直播不卡顿</span>
+                                        <i class="boss_bigbox2_b3"></i>
+                                        <span class="boss_bigbox2_b4">点击下载</span>
+                                    </a>
+                                    <a href="" class="boss_box_bigbox3">
+                                        <span class="boss_box_l1">虎牙TV电视端</span>
+                                        <span class="boss_box_l2">巨幕蓝光沉浸体验</span>
+                                        <i class="boss_bigbox3_b3"></i>
+                                        <span class="boss_bigbox2_b4">点击下载</span>
+                                    </a>
+                                </div>
+                                <div class="xzai_box2_bottom">
+                                    <a href="" class="xzai_bottom_list">
+                                        <i class="xzai_bottom_minlist1"></i>
+                                        <span class="boss_box_l1">虎牙主播端</span>
+                                        <span class="xzai_bottom_minlist3">简单易用一键开播</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <i class="min_arrow"></i>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">
+                        <i class="nav_logo_right2"></i>
+                        <span class="nav_a_color">订阅</span>
+                    </a>
+                    <div class="my_dingyue">
+                        <p>我订阅的有<span>&nbsp;&nbsp;1&nbsp;&nbsp;</span>个在直播</p>
+                        <dl class="my_dy_con">
+                            <dd>
+                                <div class="dd_txx"><img src="img/toux_my.jpg" alt="">
+                                    <i class="bofang1">
+                                        <span class="bofang_main"></span>
+                                    </i>
+
+                                </div>
+                                <h5>屿水吸血鬼</h5>
+                                <p>英雄联盟</p>
+
+                            </dd>
+                            <dd>
+                                <div class="dd_txx"><img src="img/toux_my.jpg" alt="">
+                                </div>
+                                <h5>屿水吸血鬼</h5>
+                                <p>英雄联盟</p>
+                            </dd>
+                            <dd>
+                                <div class="dd_txx"><img src="img/toux_my.jpg" alt="">
+                                </div>
+                                <h5>屿水吸血鬼</h5>
+                                <p>英雄联盟</p>
+                            </dd>
+                            <dd>
+                                <div class="dd_txx"><img src="img/toux_my.jpg" alt="">
+                                </div>
+                                <h5>屿水吸血鬼</h5>
+                                <p>英雄联盟</p>
+                            </dd>
+                        </dl>
+                        <div class="max_dingyue">
+                            <a href="">全部订阅 ></a>
+                        </div>
+                        <i class="my_d_arrow"></i>
+                    </div>
+
+                </li>
+                <li><a href="">
+                        <i class="nav_logo_right3"></i>
+                        <span class="nav_a_color">历史</span>
+                    </a>
+                    <div class="history">
+                        <dl>
+                            <dt>今天</dt>
+                            <dd>
+                                <div class="history_txt">
+                                    <p>小超梦ovo</p>
+                                    <span>英雄联盟</span>
+                                </div>
+                                <i class="small_bofang"></i>
+                            </dd>
+                            <dd>
+                                <div class="history_txt">
+                                    <p>小超梦ovo</p>
+                                    <span>英雄联盟</span>
+                                </div>
+                                <i class="small_bofang"></i>
+                            </dd>
+                            <dd>
+                                <div class="history_txt">
+                                    <p>小超梦ovo</p>
+                                    <span>英雄联盟</span>
+                                </div>
+                                <i class="small_bofang"></i>
+                            </dd>
+                        </dl>
+                        <dl class="history_list2">
+                            <dt>更早</dt>
+                            <dd>
+                                <div class="history_txt">
+                                    <p>小超梦ovo</p>
+                                    <span>英雄联盟</span>
+                                </div>
+                                <i class="small_bofang"></i>
+                            </dd>
+                            <dd>
+                                <div class="history_txt">
+                                    <p>小超梦ovo</p>
+                                    <span>英雄联盟</span>
+                                </div>
+                                <i class="small_bofang"></i>
+                            </dd>
+                            <dd>
+                                <div class="history_txt">
+                                    <p>小超梦ovo</p>
+                                    <span>英雄联盟</span>
+                                </div>
+
+                                <i class="bofang_h">
+                                    <span class="bofang_main"></span>
+                                </i>
+                            </dd>
+                            <dd></dd>
+                        </dl>
+                        <div class="more_h max_dingyue">
+                            <a href="more_h_a">更多 ></a>
+                        </div>
+                        <i class="my_h_arrow"></i>
+
+                    </div>
+                </li>
+                <li><a href="">
+                        <i class="nav_logo_right4"></i>
+                        <span class="nav_a_color">任务</span>
+                    </a></li>
+                <li><a href="javascript:;">
+                        <i class="nav_logo_right5"></i>
+                        <span class="nav_a_color">登录</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="con">
+        <div class="input_list">
+            <input type="text" placeholder="英雄联盟">
+
+            <button class="input_list_btn">
+                <div>
+                    <p>搜索</p>
+                    <i class="fag" title="放大镜"></i>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="list_title">
+        <!-- 给选到的添加一个新的类 -->
+        <span class="curee">综合</span>
+        <span>直播</span>
+        <span>主播</span>
+        <span>视频</span>
+        <span>智讯</span>
+    </div>
+
+    <div class="find-result">
+        找到
+        <em>“英雄联盟”</em>
+        相关内容共
+        <em>1000+</em>个
+    </div>
+    <div class="heart-all">
+        <div class="main_list">
+            <!-- 主页面的切换盒子 -->
+            <div class="main_list_box">
+                <div class="search-box">
+                    <div class="box-bd">
+                        <div class="search-match-schedule" id="js-match-schedule" style="display: block;">
+                            <div class="schedule-bg"></div>
+                            <h2 class="title">英雄联盟手游全球冠军杯（预发布）<a class="more j_more" href="https://www.huya.com/m"
+                                    target="_blank">更多赛事 &gt;</a></h2>
+                            <div class="schedule-box">
+                                <div class="list-box">
+                                    <ul class="schedule-list j_match-schedule-list" style="left: 10px;" id="schedule-list">
+                                        <li class="schedule-item schedule-item-moba j_link end">
+                                            <h2 class="title">8进4</h2>
+                                            <p class="time">7月1日 18:00</p>
+                                            <p class="score">0:0</p>
+                                            <span class="state">已结束</span>
+                                            <div class="team-item team-item-l">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move1.png"
+                                                    alt="NV" data-default-img="84x84">
+                                                <span class="name">NV</span>
+                                            </div>
+
+                                            <div class="team-item team-item-r">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move2.png"
+                                                    alt="RY" data-default-img="84x84">
+                                                <span class="name">RY</span>
+                                            </div>
+
+                                            <span class="tips j_tips"></span>
+                                        </li>
+                                        <li class="schedule-item schedule-item-moba j_link end">
+                                            <h2 class="title">8进4</h2>
+                                            <p class="time">7月1日 21:00</p>
+                                            <p class="score">0:0</p>
+                                            <span class="state">已结束</span>
+
+                                            <div class="team-item team-item-l">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move4.png"
+                                                    alt="FPX" data-default-img="84x84">
+                                                <span class="name">FPX</span>
+                                            </div>
+                                            <div class="team-item team-item-r">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move5.png"
+                                                    alt="RRQ" data-default-img="84x84">
+                                                <span class="name">RRQ</span>
+                                            </div>
+                                            <span class="tips j_tips"></span>
+                                        </li>
+                                        <li class="schedule-item schedule-item-moba j_link end">
+                                            <h2 class="title">8进4</h2>
+                                            <p class="time">7月2日 18:00</p>
+
+                                            <p class="score">0:0</p>
+
+
+                                            <span class="state">已结束</span>
+
+                                            <div class="team-item team-item-l">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move6.png"
+                                                    alt="JT" data-default-img="84x84">
+                                                <span class="name">JT</span>
+                                            </div>
+                                            <div class="team-item team-item-r">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move7.png"
+                                                    alt="FW" data-default-img="84x84">
+                                                <span class="name">FW</span>
+                                            </div>
+                                            <span class="tips j_tips"></span>
+                                        </li>
+                                        <li class="schedule-item schedule-item-moba j_link end">
+                                            <h2 class="title">8进4</h2>
+                                            <p class="time">7月2日 21:00</p>
+                                            <p class="score">0:0</p>
+                                            <span class="state">已结束</span>
+                                            <div class="team-item team-item-l">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move8.png"
+                                                    alt="JDG" data-default-img="84x84">
+                                                <span class="name">JDG</span>
+                                            </div>
+                                            <div class="team-item team-item-r">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move9.png"
+                                                    alt="TF" data-default-img="84x84">
+                                                <span class="name">TF</span>
+                                            </div>
+                                            <span class="tips j_tips"></span>
+                                        </li>
+                                        <li class="schedule-item schedule-item-moba j_link end">
+                                            <h2 class="title">半决赛</h2>
+                                            <p class="time">7月5日 18:00</p>
+                                            <p class="score">0:0</p>
+                                            <span class="state">已结束</span>
+                                            <div class="team-item team-item-l">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move10.png"
+                                                    alt="NV" data-default-img="84x84">
+                                                <span class="name">NV</span>
+                                            </div>
+                                            <div class="team-item team-item-r">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move11.png"
+                                                    alt="FPX" data-default-img="84x84">
+                                                <span class="name">FPX</span>
+                                            </div>
+                                            <span class="tips j_tips"></span>
+                                        </li>
+                                        <li class="schedule-item schedule-item-moba j_link end">
+                                            <h2 class="title">半决赛</h2>
+                                            <p class="time">7月6日 18:00</p>
+                                            <p class="score">0:0</p>
+                                            <span class="state">已结束</span>
+                                            <div class="team-item team-item-l">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move12.png"
+                                                    alt="JT" data-default-img="84x84">
+                                                <span class="name">JT</span>
+                                            </div>
+
+                                            <div class="team-item team-item-r">
+                                                <img class="logo"
+                                                    src="img/list/list_game_move13.png"
+                                                    alt="TF" data-default-img="84x84">
+                                                <span class="name">TF</span>
+                                            </div>
+
+                                            <span class="tips j_tips"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="schedule-ctrl ctrl-left j_ctrl-left" style="display: none;" id="ctrl-left"></span>
+                            <span class="schedule-ctrl ctrl-right j_ctrl-right" style="display: block;" id="ctrl-right"></span>
+                            <div class="schedule-item-panel j_panel"></div>
+                            <div class="video-box j_match-video-list">
+                                <li class="video-subject-item">
+                                    <div class="img-box j_link">
+                                        <img class="screenshot"
+                                            src="https://v-huya-pic.huya.com/vhuya/a5acf4ca-d35b-4be4-bf4b-2485ba279a18.jpg"
+                                            alt="" data-default-img="338x190">
+                                        <span class="tag"><i class="amount">7</i><br>视频</span>
+                                    </div>
+                                    <div class="video-msg">
+                                        <p class="title j_link" title="Nest焦点：SN一队被FPX二队爆锤">Nest焦点：SN一队被FPX二队爆锤</p>
+                                        <p class="intro" title=""></p>
+                                    </div>
+                                    <i class="link j_link"></i>
+                                </li>
+                                <li class="video-subject-item">
+                                    <div class="img-box j_link">
+                                        <img class="screenshot"
+                                            src="https://v-huya-pic.huya.com/vhuya/7751a189-aece-4dd3-9359-d780da39fd97.jpg"
+                                            alt="" data-default-img="338x190">
+                                        <span class="tag"><i class="amount">6</i><br>视频</span>
+                                    </div>
+                                    <div class="video-msg">
+                                        <p class="title j_link" title="NEST决赛：SN三比零WE夺冠 Bin导完虐呼吸哥">NEST决赛：SN三比零WE夺冠
+                                            Bin导完虐呼吸哥</p>
+                                        <p class="intro" title="Bin导正反手“议员”给呼吸哥上课+8-0卡密尔，SN完虐WE夺冠【NEST决赛】">
+                                            Bin导正反手“议员”给呼吸哥上课+8-0卡密尔，SN完虐WE夺冠【NEST决赛】</p>
+                                    </div>
+                                    <i class="link j_link"></i>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="qieh_right">
+                    <h4>搜索榜单</h4>
+                    <div class="qieh_right_boxs1">
+                        <ul class="qieh_rig1_ul1">
+                            <li>
+                                <span>1</span>
+                                <a href="">张大仙</a>
+                            </li>
+                            <li>
+                                <span>2</span>
+                                <a href="">cfpl虚拟..</a>
+                            </li>
+                            <li>
+                                <span>3</span>
+                                <a href="">cfml虚拟..</a>
+                            </li>
+                            <li>
+                                <span>4</span>
+                                <a href="">夏日云派对</a>
+                            </li>
+                            <li>
+                                <span>5</span>
+                                <a href="">童锦程</a>
+                            </li>
+                        </ul>
+                        <ul class="qieh_rig1_ul2">
+                            <li>
+                                <span>6</span>
+                                <a href="">东星-耀扬</a>
+                            </li>
+                            <li>
+                                <span>7</span>
+                                <a href="">LDL</a>
+                            </li>
+                            <li>
+                                <span>8</span>
+                                <a href="">LCK</a>
+                            </li>
+                            <li>
+                                <span>9</span>
+                                <a href="">KPL</a>
+                            </li>
+                            <li>
+                                <span>10</span>
+                                <a href="">一起看</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="qieh_right_bewtton">
+                        <h4>相关咨询</h4>
+                        <a href="">查看全部 ></a>
+                    </div>
+                  <div class="qieh_right_bottom">
+                        <ul>
+                            <li>
+                                <a href="">骁龙电竞先锋精英邀请赛<p>《英雄联盟手游》</p> 盛大开启</a>
+                                <span>2022-07-29</span>
+                            </li>
+                            <li><a href="">骁龙电竞先锋精英邀请赛<p>《英雄联盟手游》</p> 盛大开启</a>
+                                <span>2022-07-29</span>
+                            </li>
+                            <li><a href="">骁龙电竞先锋精英邀请赛<p>《英雄联盟手游》</p> 盛大开启</a>
+                                <span>2022-07-29</span>
+                            </li>
+                            <li><a href="">骁龙电竞先锋精英邀请赛<p>《英雄联盟手游》</p> 盛大开启</a>
+                                <span>2022-07-29</span>
+                            </li>
+                        </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="biaoq">
+                <div class="classify">
+                    <h3>相关游戏</h3>
+                    <ul class="classify_ph_top1">
+                        <li><img src="img/1-MS.png" alt="">
+                            <p>英雄联盟</p>
+                            <span>820场直播</span>
+                        </li>
+                        <li><img src="img/2-MS.png" alt="">
+                            <p>王者荣耀</p>
+                            <span>717场直播</span>
+                        </li>
+                        <li><img src="img/3-MS.png" alt="">
+                            <p>英雄联盟电竞经理</p>
+                            <span>99场直播</span>
+                        </li>
+                        <li><img src="img/4-MS.png" alt="">
+                            <p>星秀</p>
+                            <span>404场直播</span>
+                        </li>
+                        <li><img src="img/5-MS.png" alt="">
+                            <p>户外</p>
+                            <span>157场直播</span>
+                        </li>
+                        <li><img src="img/5-MS.png" alt="">
+                            <p>户外</p>
+                            <span>157场直播</span>
+                        </li>
+                        <li><img src="img/5-MS.png" alt="">
+                            <p>户外</p>
+                            <span>157场直播</span>
+                        </li>
+                        <li><img src="img/5-MS.png" alt="">
+                            <p>户外</p>
+                            <span>157场直播</span>
+                        </li>
+                    </ul>
+                    <p class="more_game_txt">
+                        <span>更多相关游戏</span>
+                        <i></i>
+                    </p>
+                </div>
+            </div>
+            <div class="xgzb">
+                <h3>相关主播</h3>
+                <a href="" class="list_xgzb_aright">查看全部 ></a>
+                <ul class="classify_ph_top1 classify-xgzb">
+                    <li><img src="img/list/list_game_noe3.png" alt="">
+                        <p>Zz1tai姿态</p>
+                        <span>房间号:333003</span><br>
+                        <span class="xgzg_txt_jss">LPL003号选手，洲际赛冠军</span>
+                        <em class="xgzb_ysjiao">大神推荐</em>
+                        <i class="bofang">
+                            <em class="bofang_main"></em>
+                        </i>
+                    </li>
+                    <li><img src="img/list/list_game_noe3.png" alt="">
+                        <p>Zz1tai姿态</p>
+                        <span>房间号:333003</span><br>
+                        <span class="xgzg_txt_jss">LPL003号选手，洲际赛冠军</span>
+                        <em class="xgzb_ysjiao">大神推荐</em>
+                        <i class="bofang">
+                            <em class="bofang_main"></em>
+                        </i>
+                    </li>
+                    <li><img src="img/list/list_game_noe3.png" alt="">
+                        <p>Zz1tai姿态</p>
+                        <span>房间号:333003</span><br>
+                        <span class="xgzg_txt_jss">LPL003号选手，洲际赛冠军</span>
+                        <em class="xgzb_ysjiao">大神推荐</em>
+                        <i class="bofang">
+                            <em class="bofang_main"></em>
+                        </i>
+                    </li>
+                    <li><img src="img/list/list_game_noe3.png" alt="">
+                        <p>Zz1tai姿态</p>
+                        <span>房间号:333003</span><br>
+                        <span class="xgzg_txt_jss">LPL003号选手，洲际赛冠军</span>
+                        <em class="xgzb_ysjiao">大神推荐</em>
+                        <i class="bofang">
+                            <em class="bofang_main"></em>
+                        </i>
+                    </li>
+                    <li><img src="img/list/list_game_noe3.png" alt="">
+                        <p>Zz1tai姿态</p>
+                        <span>房间号:333003</span><br>
+                        <span class="xgzg_txt_jss">LPL003号选手，洲际赛冠军</span>
+                        <em class="xgzb_ysjiao">大神推荐</em>
+                        <i class="bofang">
+                            <em class="bofang_main"></em>
+                        </i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mai_xgvio">
+                <h3>相关直播</h3>
+                <div class="bbb">
+                    <ul class="bbb_cccc">
+
+                        <li>
+                            <a href="">
+                                <img src="img/game_zb_01.jpg" alt="">
+                                <em class="zuoshanj">魅力新星</em>
+                                <div class="yinying"></div>
+                                <i class="plays"></i>
+                                <p class="tag_right">蓝光10M</p>
+                                <a href="" id="bbb_txt">16:45直播AL vs RNG 夏季赛</a>
+                                <span class="bbb_txt_span">
+                                    <span class="avater">
+                                        <img src="img/toux.jpg" alt="">
+                                        <p>虎牙英雄联盟赛事</p>
+                                    </span>
+                                    <span class="avater2">
+                                        <i class="redu_ph"></i>
+                                        <i class="redu">148.0万</i>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/liveph/live-main1.jpg" alt="">
+                                <div class="yinying"></div>
+                                <i class="plays"></i>
+                                <a href="" id="bbb_txt">s11最高分第一s12峡谷2000分第一</a>
+                                <span class="bbb_txt_span">
+                                    <span class="avater">
+                                        <img src="img/liveph/live-main1-1tx1.jpg" alt="">
+                                        <p>小超梦ovo</p>
+                                    </span>
+                                    <span class="avater2">
+                                        <i class="redu_ph"></i>
+                                        <i class="redu">344.6万</i>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <img src="img/liveph/live-main2.jpg" alt="">
+                            <em class="zuoshanj">魅力新星</em>
+                            <div class="yinying"></div>
+                            <i class="plays"></i>
+                            <p class="tag_right">蓝光10M</p>   
+                            <a href="" id="bbb_txt">主播年年都秃，年年都顶！峡谷连续六年第一</a>
+                            <span class="bbb_txt_span">
+                                <span class="avater">
+                                    <img src="img/liveph/live-main1-2tx2.jpg" alt="">
+                                    <p>微竞丶莎莉</p>
+                                </span>
+                                <span class="avater2">
+                                    <i class="redu_ph"></i>
+                                    <i class="redu">230.8万</i>
+                                </span>
+                            </span>
+                        </a>
+                        </li>
+                    </ul>
+                    <ul class="bbb_cccc">
+                        <li>
+                            <a href="">
+                                <img src="img/liveph/live-main3.jpg" alt="">
+                                <div class="yinying"></div>
+                                <i class="plays"></i>
+                                <a href="" id="bbb_txt">钻一马上大师</a>
+                                <span class="bbb_txt_span">
+                                    <span class="avater">
+                                        <img src="img/liveph/live-main1-3tx3.jpg" alt="">
+                                        <p>霸哥</p>
+                                    </span>
+                                    <span class="avater2">
+                                        <i class="redu_ph"></i>
+                                        <i class="redu">186.2万</i>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/liveph/live-main4.jpg" alt="">
+                                <div class="yinying"></div>
+                                <i class="plays"></i>
+                                <a href="" id="bbb_txt">带妹上大分</a>
+                                <span class="bbb_txt_span">
+                                    <span class="avater">
+                                        <img src="img/liveph/live-main1-4tx4.jpg" alt="">
+                                        <p>AmazingJ</p>
+                                    </span>
+                                    <span class="avater2">
+                                        <i class="redu_ph"></i>
+                                        <i class="redu">94.2万</i>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/liveph/live-main4-1.jpg" alt="">
+                                <em class="zuoshanj">魅力新星</em>
+                                <div class="yinying"></div>
+                                <i class="plays"></i>
+                                <p class="tag_right">蓝光10M</p>
+                                <a href="" id="bbb_txt">今天正经点  上单全能王  把把C</a>
+                                <span class="bbb_txt_span">
+                                    <span class="avater">
+                                        <img src="img/liveph/live-main4-1tx.jpg" alt="">
+                                        <p>墨染</p>
+                                    </span>
+                                    <span class="avater2">
+                                        <i class="redu_ph"></i>
+                                        <i class="redu">27.1万</i>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="bigbox">
+                <div class="footer_bigbox">
+                    <div class="footer_box1">
+                        <dl>
+                            <dt>友情链接</dt>
+                            <dd>腾讯游戏</dd>
+                            <dd>快看漫画</dd>
+                            <dd>爱拍</dd>
+                            <dd>搜狐56视频</dd>
+                            <dd>热门英雄直播</dd>
+                            <dd>开放平台</dd>
+                            <dd>视频专题列表</dd>
+                        </dl>
+                    </div>
+                    <div class="footer_box2">
+                        <dl>
+                            <dt>主播帮助</dt>
+                            <dd>新人主播</dd>
+                            <dd>开播工具下载</dd>
+                            <dd>开播教程引导</dd>
+                            <dd>虎牙直播学院</dd>
+                            <dd>虎牙安全门户</dd>
+                            <dd>虎牙监察反舞弊举报</dd>
+                        </dl>
+                    </div>
+                    <div class="footer_box3">
+                        <h2>虎牙产品下载</h2>
+                        <div class="footer_box3_text">
+                            <a href="">
+                                <i class="footer_box3_ph1"></i>
+                                <span>iPhone版</span>
+                            </a>
+
+                            <a href="">
+                                <i class="footer_box3_ph2"></i>
+                                <span>iPad版</span>
+                            </a>
+
+                            <a href="">
+                                <i class="footer_box3_ph3"></i>
+                                <span>Andrioid版</span>
+                            </a>
+
+                            <a href="">
+                                <i class="footer_box3_ph4"></i>
+                                <span>Andrioid Pad版</span>
+                            </a>
+
+                            <a href="">
+                                <i class="footer_box3_ph5"></i>
+                                <span>TV版</span>
+                            </a>
+
+                            <a href="">
+                                <i class="footer_box3_ph6"></i>
+                                <span>PC版</span>
+                            </a>
+
+                            <a href="">
+                                <i class="footer_box3_ph7"></i>
+                                <span>Win10版/WP版</span>
+                            </a>
+                        </div>
+                        <div class="footer_box3_photo">
+                            <img src="img/footer_logo.png" alt="">
+                            <p>扫描下载虎牙APP</p>
+                        </div>
+
+                    </div>
+                    <div class="footer_box4">
+                        <h2>关注我们</h2>
+                        <div class="footer_box4logo">
+                            <img src="img/footer_logo2.png" alt="">
+                            <p>扫描关注微信公众号</p>
+                        </div>
+                        <div class="footer_boxtxt">
+                            <a href="">
+                                <i class="footer_box4_ph"></i>
+                                <span>虎牙官网微博</span>
+                            </a>
+
+                            <a href="">
+                                <i class="footer_box5_ph"></i>
+                                <span>贴吧交流</span>
+                            </a>
+                            <a href="">不良信息举报与举报</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_ddd">
+                    <ul class="footer_ddd_top">
+                        <li><a href="">关于虎牙</a>|</li>
+                        <li><a href="">Investor Relations</a>|</li>
+                        <li><a href="">加入我们</a>|</li>
+                        <li><a href="">合作联系</a>|</li>
+                        <li><a href="">友情链接</a>|</li>
+                        <li><a href="">广告投放</a>|</li>
+                        <li><a href="">联系客服</a>|</li>
+                        <li><a href="">平台规则</a>|</li>
+                        <li><a href="">隐私政策</a>|</li>
+                        <li><a href="">版权保护投诉指引</a></li>
+                    </ul>
+                    <ul class="footer_ddd_top lll">
+                        <li><a href="">营业执照</a>|</li>
+                        <li><a href="">广州虎牙信息科技有限公司 版权所有</a>|</li>
+                        <li><a href="">粤ICP备16120983号</a>|</li>
+                        <li><a href="">增值电信业务经营许可证 粤B2-20170312</a>|</li>
+                        <li><a href="">B1-20181380</a>|</li>
+                        <li><a href="">粤网文[2019]5709-1183号</a>|</li>
+                        <li><a href=""><img src="img/footer_plsm_ph.png" alt=""> 粤公网安备44011302000433</a></li>
+                    </ul>
+                    <ul class="footer_ddd_top lll">
+                        <li><a href="">© 2012-现在 huya.com</a></li>
+                        <li><a href="">广播电视节目制作经营许可证</a></li>
+                        <li><a href="">All Rights Reserved</a></li>
+                        <li><a href="">HUYA</a></li>
+                        <li><a href="">全国文化和旅游市场网上举报投诉处理系统</a></li>
+                        <li><a href="">中国互联网不良信息举报中心</a></li>
+                        <li><a href="">违法和不良信息举报:020-22511620</a></li>
+                        <li><a href="">未成年人关怀热线:020-22511510</a></li>
+                    </ul>
+                    <div class="footer_logo_logo">
+                        <img src="img/footer_logo_logo.png" alt="">
+                        <a href="">
+                            <img src="img/footer_logo_logo2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="opsi_fixed">
+            <div class="fixed_boxs1">
+                <div class="fixed_boxs2">
+                    <button class="fixed_small_box1 fixed_logo_hidden" style="border: none; background:#fff;">
+                        <i class="small_box1_ph1"></i>
+                        <span class="small_box1_txt1">下载</span>
+
+                        <i class="small_box1_ph9"></i>
+
+                        <div class="small_box2">
+                            <i class="fixed_xxxz"></i>
+                            <div class="small_boxs2_b1">
+                                <em class="fixed_xxzz"></em>
+                                <span class="fixed_xxzz_txt">虎牙直播APP</span>
+                                <span>独家赛事随时享</span>
+                                <a href="" class="APP_xzai">下载APP</a>
+                            </div>
+                            <div class="small_boxs2_b1">
+                                <i class="small_boxs2_b2"></i>
+                                <span>虎牙pc客户端</span>
+                                <span>秒开直播不卡顿</span>
+                                <a href="" class="APP_xzai_pc">下载pc端</a>
+                            </div>
+                            <em class="fixed_jiantou"></em>
+                        </div>
+
+                    </button>
+                    <a href="" class="fixed_small_box1">
+                        <i class="small_box1_ph2"></i>
+                        <span class="small_box1_txt1">开通</span>
+                    </a>
+                    <a href="" class="fixed_small_box1">
+                        <i class="small_box1_ph3"></i>
+                        <span class="small_box1_txt1">合作</span>
+                    </a>
+                    <a href="" class="fixed_small_box1">
+                        <i class="small_box1_ph4"></i>
+                        <span class="small_box1_txt1">网游</span>
+                    </a>
+                    <a href="" class="fixed_small_box1">
+                        <i class="small_box1_ph5"></i>
+                        <span class="small_box1_txt1">帮助</span>
+                    </a>
+                    <a href="" class="fixed_small_box1">
+                        <i class="small_box1_ph6"></i>
+                        <span class="small_box1_txt1">举报</span>
+                    </a>
+                    <a href="" class="fixed_small_box1">
+                        <i class="small_box1_ph7"></i>
+                        <span class="small_box1_txt1">客服</span>
+                    </a>
+                    <a class="fixed_small_box1 fixed_button">
+                        <i class="small_box1_ph8"></i>
+                        <span class="small_box1_txt1">顶部</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/list.js"></script>
+    <!-- <script src="js/home.js"></script> -->
+</body>
+
+</html>
